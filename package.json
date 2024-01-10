@@ -1,0 +1,16 @@
+{
+  "name": "start_project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "tailwindcss": "^3.3.5"
+  }
+}
